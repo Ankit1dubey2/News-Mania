@@ -12,9 +12,7 @@ const app = express();
 const PORT = config.port || 4000;
 
 app.use(express.json());
-app.use(cors({
-  origin: 'https://news-mania-e4oh.onrender.com',
-}));
+app.use(cors());
 
 mongoose.set('strictQuery', false);
 
