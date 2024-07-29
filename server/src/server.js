@@ -13,7 +13,7 @@ const PORT = config.port || 4000;
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://news-mania-sigma.vercel.app/',
+  origin: 'https://news-mania-e4oh.onrender.com/news',
 }));
 
 mongoose.set('strictQuery', false);
